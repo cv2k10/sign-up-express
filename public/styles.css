@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+  padding: 5px;
+  background-color: beige;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  min-width: 80px;
+  text-align: center;
+  padding: 5px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+nav ul li:hover {
+  background-color: #555;
+}
+
+nav ul li:hover a {
+  color: #fff;
+}
+
+form p label {
+  display: inline-block;
+  min-width: 100px;
+}
+
+#footer {
+  font-size: 0.8em;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  font-style: italic;
+}
+.designed-by-calvin {
+  width: 20px;
+  height: auto;
+}

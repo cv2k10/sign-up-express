@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <link rel="stylesheet" href="styles.css">
+              <title>Sign-up</title>
+</head>
+<body>
+  <%- include('partials/nav'); %>
+  <h1>Sign-up Form</h1>
+  <p>This is a signup page</p>
+
+  <form action="/formdone" method="POST">
+    <p>
+      <label for="fullname">Full Name: </label>
+      <input type="text" id="fullname" name="fullname">
+    </p>
+    <p>
+      <label for="email">Email: </label>
+      <input type="text" id="email" name="email">
+    </p>
+    <input type="submit" value="Send">
+  </form>
+</body>
+</html>
